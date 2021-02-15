@@ -11,3 +11,6 @@ Jag har börjat att programmera eftersom att jag vet inte hur jag ska göra klas
 
 02/02/21
 jag har jobbat med att koppla till sql och ska göra klart det nästa lektion
+
+15/02/21
+fortsatt med att försöka koppla sql
