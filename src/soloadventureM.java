@@ -13,15 +13,14 @@ public class soloadventureM {
 
             Statement stmt = conn.createStatement();
             String SQLquery = "SELECT * FROM body";
-            ResultSet rset = stmt.executeQuery(strSelect);
+            ResultSet rset = stmt.executeQuery(SQLquery);
 
             while (rset.next()) {
                 System.out.println(
                         rset.getInt("id") + ", " +
-                                rset.getString("title") + ", " +
-                                rset.getString("author") + ", " +
-                                rset.getDouble("price") + ", " +
-                                rset.getInt("quantity")
+                                rset.getInt("story_id") + ", " +
+                                rset.getInt("target_id") + ", " +
+                                rset.getString("description")
                 );
             }
             stmt.close();
@@ -29,4 +28,5 @@ public class soloadventureM {
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
+    }
 }
