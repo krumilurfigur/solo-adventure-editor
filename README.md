@@ -14,3 +14,6 @@ jag har jobbat med att koppla till sql och ska göra klart det nästa lektion
 
 15/02/21
 fortsatt med att försöka koppla sql
+
+22/02/21
+sql fungerar nu så nästa lektion ska jag jobba med modellen så att logiken bakom äventyret fungerar.
