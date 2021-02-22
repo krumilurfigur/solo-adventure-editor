@@ -1,8 +1,8 @@
-import java.sql.*;
+import  java.sql.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class soloadventureM {
+public class soloadventureC {
     public static void main(String[] args) {
         try {
             // Set up connection to database
@@ -12,7 +12,7 @@ public class soloadventureM {
                     DatabaseLoginData.user, DatabaseLoginData.password);
 
             Statement stmt = conn.createStatement();
-            String SQLquery = "SELECT * FROM body";
+            String SQLquery = "SELECT * FROM links";
             ResultSet rset = stmt.executeQuery(SQLquery);
 
             while (rset.next()) {
