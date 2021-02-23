@@ -17,3 +17,6 @@ fortsatt med att försöka koppla sql
 
 22/02/21
 sql fungerar nu så nästa lektion ska jag jobba med modellen så att logiken bakom äventyret fungerar.
+
+23/02/21
+Jag gjorde en view form istället
