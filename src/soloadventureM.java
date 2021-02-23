@@ -2,7 +2,7 @@ import  java.sql.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class soloadventureC {
+public class soloadventureM {
     public static void main(String[] args) {
         try {
             // Set up connection to database
